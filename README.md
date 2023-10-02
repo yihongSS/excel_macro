@@ -5,3 +5,9 @@ As suggested by Microsoft documentation, "If you want to share your Personal.xls
 "
 
 Source: https://support.microsoft.com/en-us/office/copy-your-macros-to-a-personal-macro-workbook-aa439b90-f836-4381-97f0-6e4c3f5ee566
+
+
+
+Notes: 
+* if you could not find the XLStart folder, try to check if the Macro is enabled; normally after macros being enabled, the XLStart would be created automatically by MS excel.
+* sometimes it's in the Roaming folder instead of Local folder, for instance: "C:\Users\user name\AppData\Roaming\Microsoft\Excel\XLSTART"
